@@ -64,7 +64,7 @@ app.delete('/users/:id/orders/:idOrder',auth.loginUsers,pedidos.deletePedido)
 
 //Este método delega en el server.listen "nativo" de Node
    
-app.listen(process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 8000, function () {
     
     knex.schema.createTableIfNotExists('categories', function (table) {
         table.increments('categories_id');

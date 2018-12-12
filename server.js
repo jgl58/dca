@@ -136,7 +136,8 @@ app.listen(process.env.PORT || 8000, function () {
         if(total[0].c == 0){
             console.log("Usuarios insertados");
             return knex('users').insert([
-                {users_id: 1, nick: "jonay", pass: "pass", name: "name", lastname: "lastname"}
+                {users_id: 1, nick: "jonay", pass: "pass", name: "name", lastname: "lastname"},
+                {users_id: 2, nick: "dca", pass: "dca", name: "dca", lastname: "dca"}
             ])
         }
     })

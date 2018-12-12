@@ -150,7 +150,9 @@ app.listen(process.env.PORT || 8000, function () {
                 {games_id:2, title:"NBA 2K18", year:2017, price: 45, categories_id: 1, url: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/5880/5880000_sd.jpg;maxHeight=550;maxWidth=642"},
                 {games_id:3, title:"Call Of Duty: WWII", year:2017, price: 80, categories_id: 2, url: "http://cahosgaming.com.ar/uploads/b/13B20170426_1493251330_COD%20-%20WW2.jpg"},
                 {games_id:4, title:"Counter Strike: Global Ofensive", year:2012, price: 15, categories_id: 2, url: "https://i11b.3djuegos.com/juegos/7909/counterstrike_global_offensive/fotos/ficha/counterstrike_global_offensive-1942557.jpg"},
-                {games_id:5, title:"The Legend Of Zelda: Breath Of The Wild", year:2017, price: 40, categories_id: 3, url: "https://cdn4.areajugones.es/wp-content/uploads/2017/01/zelda-breath-of-the-wild-europa.jpeg"}
+                {games_id:5, title:"The Legend Of Zelda: Breath Of The Wild", year:2017, price: 40, categories_id: 3, url: "https://cdn4.areajugones.es/wp-content/uploads/2017/01/zelda-breath-of-the-wild-europa.jpeg"},
+                {games_id:6, title:"DCA: Curso 18-19", year:2018, price: 70, categories_id: 2, url: "https://cdn4.areajugones.es/wp-content/uploads/2017/01/zelda-breath-of-the-wild-europa.jpeg"}
+                
             ]) 
         }
     })

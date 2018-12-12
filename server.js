@@ -159,7 +159,7 @@ app.listen(process.env.PORT || 3000, function () {
     
 
 
-   console.log("El servidor express está en el puerto 3000");
+   console.log("El servidor express está en el puerto 3000 \n Conectate a localhost:3000");
   
    
 });
